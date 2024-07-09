@@ -8,3 +8,8 @@ jobs:
         run: echo "Hello world!"
       - name: Pring goodbye
         run: echo "done! bye"
+      - name: Readable pring
+        run: |
+          echo "First line"
+          echo "Second line"
+          echo "Done!"
